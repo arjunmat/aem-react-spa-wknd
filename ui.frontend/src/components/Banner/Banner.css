@@ -1,0 +1,58 @@
+.Banner-Wrapper {
+    position: relative;
+}
+
+.Banner {
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+.Banner .Banner-image {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.Banner .Banner-image img {
+    width: 100%;
+}
+
+.Banner .Banner-content {
+    width: 1024px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.Banner .Banner-content h1 {
+    letter-spacing: 2px;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+
+.Banner .left-aligned-banner .Banner-inside-content {
+    max-width: 400px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+}
+
+.Banner .center-aligned-banner .Banner-content {
+    max-width: 40%;
+    width: 100%;
+    margin: 20px auto 40px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+}
+
+.Banner .Banner-content a.Banner-cta {
+    text-decoration: none;
+    background: #FFEA00;
+    padding: 15px 20px;
+    margin: 10px 0;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.24);
+}

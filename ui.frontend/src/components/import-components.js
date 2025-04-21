@@ -19,6 +19,11 @@ import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 
+//Custom Components
+import './Image/Image';
+import './Banner/Banner';
+import './Navigation/Navigation';
+
 import {MapTo} from '@adobe/aem-react-editable-components';
 
 import {
@@ -61,12 +66,13 @@ MapTo('wknd-spa-react/components/separator')(SeparatorV1, {isEmpty: SeparatorV1I
 
 MapTo('wknd-spa-react/components/button')(ButtonV1, {isEmpty: ButtonV1IsEmptyFn});
 MapTo('wknd-spa-react/components/teaser')(TeaserV1, {isEmpty: TeaserV1IsEmptyFn});
-MapTo('wknd-spa-react/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
+//Uncommented below line to enable custom image component
+//MapTo('wknd-spa-react/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
 MapTo('wknd-spa-react/components/title')(TitleV2, {isEmpty: TitleV2IsEmptyFn});
 
 
 MapTo('wknd-spa-react/components/breadcrumb')(BreadCrumbV2, {isEmpty: BreadCrumbV2IsEmptyFn});
-MapTo('wknd-spa-react/components/navigation')(NavigationV1);
+//MapTo('wknd-spa-react/components/navigation')(NavigationV1);
 MapTo('wknd-spa-react/components/languagenavigation')(LanguageNavigationV1);
 
 
